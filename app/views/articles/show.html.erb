@@ -2,3 +2,4 @@
 <p><%= @article.body %></p>
 <br>
 <%= link_to "<< Back to articles page", articles_path %>
+<%= link_to "Delete this article", article_path(@article), method: :delete %>
